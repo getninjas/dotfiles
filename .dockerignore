@@ -1,0 +1,9 @@
+.git*
+tmp*
+log*
+public/assets*
+db/seeds/*.rb
+*Dockerfile
+
+# https://semaphoreci.com/docs/docker.html
+.semaphore-cache
