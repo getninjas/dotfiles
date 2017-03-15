@@ -1,0 +1,51 @@
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 80
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: space
+
+Style/PercentQLiterals:
+  EnforcedStyle: upper_case_q
+
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%i': '[]'
+    '%I': '[]'
+    '%r': ()
+    '%w': '[]'
+    '%W': '[]'
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+
+AllCops:
+  Exclude:
+    - "bin/**/*"
+    - "db/**/*"
+    - "log/**/*"
+    - "tmp/**/*"
+    - "config/locales/**/*"
+    - "**/*.yml"
+    - "**/*.erb"
+    - "config.ru"
+    - "Gemfile.lock"
+    - "Rakefile"
+    - "config/boot.rb"
+    - "README.md"
+  TargetRubyVersion: 2.3
