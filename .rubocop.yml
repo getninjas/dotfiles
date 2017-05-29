@@ -1,6 +1,9 @@
 Documentation:
   Enabled: false
 
+Lint/Debugger:
+  Enabled: false
+
 Metrics/LineLength:
   Max: 80
 
