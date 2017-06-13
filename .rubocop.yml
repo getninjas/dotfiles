@@ -16,7 +16,7 @@ SpaceAroundEqualsInParameterDefault:
 Style/PercentQLiterals:
   EnforcedStyle: upper_case_q
 
-Style/AlignParameters:
+Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
 Style/Lambda:
