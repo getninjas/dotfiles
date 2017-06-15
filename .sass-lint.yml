@@ -5,15 +5,9 @@ options:
 # File Options
 files:
   include:
-    - 'src/scss/*.scss'
-    - 'src/scss/**/*.scss'
-  include:
-    - 'app/assets/stylesheets/*.sass'
-    - 'app/assets/stylesheets/**/*.sass'
-    - 'app/assets/stylesheets/**/**/*.sass'
-    - 'app/assets/stylesheets/*.scss'
-    - 'app/assets/stylesheets/**/*.scss'
-    - 'app/assets/stylesheets/**/**/*.scss'
+    - '**/*.s+(c|a)ss'
+  ignore:
+    - '**/*+(vendor)/**/*.s+(c|a)ss'
 
 # Rule Configuration
 rules:
