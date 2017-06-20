@@ -39,17 +39,7 @@ rules:
   property-sort-order:
     - 1
     -
-      order:
-        - display
-        - margin
-        - padding
-        - width
-        - height
-        - position
-        - top
-        - right
-        - bottom
-        - left
+      order: alphabetical
       ignore-custom-properties: true
   variable-name-format:
     - 2
