@@ -1,3 +1,6 @@
 {
-  "extends": "getninjas"
+  "extends": "getninjas",
+  "rules": {
+    "class-methods-use-this": ["off", {}]
+  }
 }
