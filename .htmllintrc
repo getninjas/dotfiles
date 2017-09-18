@@ -5,7 +5,6 @@
     "bgcolor",
     "border",
     "dynsrc",
-    "id",
     "frameborder",
     "longdesc",
     "lowsrc",
@@ -15,8 +14,7 @@
     "marginwidth",
     "marginheight",
     "scrolling",
-    "style",
-    "width"
+    "style"
   ],
   "attr-name-ignore-regex": false,
   "attr-name-style": "dash",
@@ -28,7 +26,7 @@
   "class-style": "dash",
   "csslint": false,
   "doctype-first": false,
-  "doctype-html5": false,
+  "doctype-html5": true,
   "fig-req-figcaption": true,
   "focusable-tabindex-style": false,
   "head-req-title": true,
@@ -36,7 +34,7 @@
   "html-req-lang": true,
   "id-class-ignore-regex": false,
   "id-class-no-ad": true,
-  "id-class-style": "underscore",
+  "id-class-style": "dash",
   "id-no-dup": true,
   "input-radio-req-name": true,
   "img-req-alt": true,
@@ -65,6 +63,6 @@
   "tag-name-match": true,
   "tag-self-close": "never",
   "text-escape-spec-char": true,
-  "title-max-len": 60,
+  "title-max-len": 120,
   "title-no-dup": true
 }
