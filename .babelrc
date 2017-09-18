@@ -1,0 +1,7 @@
+{
+  "presets": ["env"],
+  "sourceMap": "inline",
+  "plugins": [
+    "transform-object-rest-spread"
+  ]
+}
