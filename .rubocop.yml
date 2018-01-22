@@ -5,10 +5,10 @@ Metrics/LineLength:
   Max: 80
 
 Style/StringLiterals:
-  EnforcedStyle: double_quotes
+  EnforcedStyle: single_quotes
 
 Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
+  EnforcedStyle: single_quotes
 
 SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: space
