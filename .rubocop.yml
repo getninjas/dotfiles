@@ -2,7 +2,7 @@ Documentation:
   Enabled: false
 
 Metrics/LineLength:
-  Max: 80
+  Max: 120
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
