@@ -48,4 +48,3 @@ AllCops:
     - "Rakefile"
     - "config/boot.rb"
     - "README.md"
-  TargetRubyVersion: 2.3
