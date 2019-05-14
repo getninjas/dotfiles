@@ -1,23 +1,18 @@
 Documentation:
   Enabled: false
 
-Metrics/LineLength:
-  Max: 120
-
-Style/StringLiterals:
-  EnforcedStyle: double_quotes
-
-Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
-
-SpaceAroundEqualsInParameterDefault:
-  EnforcedStyle: space
-
-Style/PercentQLiterals:
-  EnforcedStyle: upper_case_q
-
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: space
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+
+Metrics/LineLength:
+  Max: 120
 
 Style/Lambda:
   EnforcedStyle: literal
@@ -30,9 +25,14 @@ Style/PercentLiteralDelimiters:
     '%w': '[]'
     '%W': '[]'
 
-Metrics/BlockLength:
-  Exclude:
-    - "spec/**/*"
+Style/PercentQLiterals:
+  EnforcedStyle: upper_case_q
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
 
 AllCops:
   Exclude:
