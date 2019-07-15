@@ -31,6 +31,9 @@ Metrics/BlockLength:
   Exclude:
     - "spec/**/*"
 
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
 
