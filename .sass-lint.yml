@@ -11,6 +11,7 @@ files:
 
 # Rule Configuration
 rules:
+  selector-class-pattern: null
   no-transition-all: 0
   no-vendor-prefixes: 0
   no-color-literals: 2
@@ -42,7 +43,7 @@ rules:
   variable-name-format:
     - 2
     -
-      convention: camelcase
+      convention: hyphenatedlowercase
   space-between-parens:
     - 2
     -
