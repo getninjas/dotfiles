@@ -11,6 +11,7 @@ files:
 
 # Rule Configuration
 rules:
+  selector-class-pattern: null
   no-transition-all: 0
   no-vendor-prefixes: 0
   no-color-literals: 2
