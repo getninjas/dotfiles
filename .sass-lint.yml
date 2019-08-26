@@ -75,6 +75,7 @@ rules:
     - 2
     -
       convention: hyphenatedbem
+      allow-leading-underscore: true
   mixins-before-declarations:
     - 2
     -
