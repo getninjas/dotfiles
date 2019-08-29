@@ -41,6 +41,18 @@ Metrics/LineLength:
 Naming/VariableNumber:
   EnforcedStyle: snake_case
 
+RSpec/EmptyExampleGroup:
+  Exclude:
+    - spec/factories/*
+
+RSpec/EmptyLineAfterExampleGroup:
+  Exclude:
+    - spec/factories/*
+
+RSpec/MissingExampleGroupArgument:
+  Exclude:
+    - spec/factories/*
+
 SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: space
 
