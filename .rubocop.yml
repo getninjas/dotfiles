@@ -1,3 +1,29 @@
+AllCops:
+  Exclude:
+    - bin/*
+    - config.ru
+    - config/application.rb
+    - config/boot.rb
+    - config/environment.rb
+    - config/environments/development.rb
+    - config/environments/production.rb
+    - config/environments/test.rb
+    - config/initializers/airbrake.rb
+    - config/initializers/application_controller_renderer.rb
+    - config/initializers/backtrace_silencers.rb
+    - config/initializers/cookies_serializer.rb
+    - config/initializers/filter_parameter_logging.rb
+    - config/initializers/inflections.rb
+    - config/initializers/mime_types.rb
+    - config/initializers/wrap_parameters.rb
+    - config/puma.rb
+    - config/spring.rb
+    - db/schema.rb
+    - db/seeds/**/*
+    - Gemfile.lock
+    - Rakefile
+    - script/rails
+
 Documentation:
   Enabled: false
 
@@ -39,18 +65,3 @@ Style/TrailingCommaInArrayLiteral:
 
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
-
-AllCops:
-  Exclude:
-    - "bin/**/*"
-    - "db/**/*"
-    - "log/**/*"
-    - "tmp/**/*"
-    - "config/locales/**/*"
-    - "**/*.yml"
-    - "**/*.erb"
-    - "config.ru"
-    - "Gemfile.lock"
-    - "Rakefile"
-    - "config/boot.rb"
-    - "README.md"
