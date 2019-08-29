@@ -31,23 +31,24 @@ AllCops:
 Documentation:
   Enabled: false
 
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+
 Metrics/LineLength:
   Max: 120
 
-Style/StringLiterals:
-  EnforcedStyle: double_quotes
-
-Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
 
 SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: space
 
-Style/PercentQLiterals:
-  EnforcedStyle: upper_case_q
-
 Style/Lambda:
   EnforcedStyle: literal
+
+Style/PercentQLiterals:
+  EnforcedStyle: upper_case_q
 
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
@@ -57,12 +58,11 @@ Style/PercentLiteralDelimiters:
     '%w': '[]'
     '%W': '[]'
 
-Metrics/BlockLength:
-  Exclude:
-    - "spec/**/*"
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
 
-Naming/VariableNumber:
-  EnforcedStyle: snake_case
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
 
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
