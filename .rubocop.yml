@@ -1,3 +1,7 @@
+require:
+  - rubocop-performance
+  - rubocop-rspec
+
 AllCops:
   Exclude:
     - bin/*
@@ -37,8 +41,17 @@ Metrics/LineLength:
 Naming/VariableNumber:
   EnforcedStyle: snake_case
 
-RSpec/MultipleExpectations:
-  Enabled: false
+RSpec/EmptyExampleGroup:
+  Exclude:
+    - spec/factories/*
+
+RSpec/EmptyLineAfterExampleGroup:
+  Exclude:
+    - spec/factories/*
+
+RSpec/MissingExampleGroupArgument:
+  Exclude:
+    - spec/factories/*
 
 SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: space
