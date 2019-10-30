@@ -37,6 +37,9 @@ Metrics/LineLength:
 Naming/VariableNumber:
   EnforcedStyle: snake_case
 
+RSpec/MultipleExpectations:
+  Enabled: false
+
 SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: space
 
