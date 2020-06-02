@@ -436,7 +436,9 @@
         "expandShorthand": true,
         "ignoreValues": [
           "0",
-          "transparent"
+          "transparent",
+          "inherit",
+          "initial"
         ]
       }
     ],
