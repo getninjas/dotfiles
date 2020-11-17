@@ -430,6 +430,16 @@
         ]
       }
     ],
+    "selector-no-qualifying-type": [
+      true,
+      {
+        "ignore": [
+          "class",
+          "attribute",
+          "id"
+        ]
+      }
+    ],
     "scale-unlimited/declaration-strict-value": [
       "/color$/",
       {
