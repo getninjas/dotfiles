@@ -441,7 +441,7 @@
       }
     ],
     "scale-unlimited/declaration-strict-value": [
-      "/color$/",
+      ["/color$/", "text-decoration"],
       {
         "expandShorthand": true,
         "ignoreValues": [
