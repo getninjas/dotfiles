@@ -71,10 +71,10 @@ Style/PercentQLiterals:
   EnforcedStyle: upper_case_q
 
 Style/StringLiterals:
-  EnforcedStyle: double_quotes
+  EnforcedStyle: single_quotes
 
 Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
+  EnforcedStyle: single_quotes
 
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
