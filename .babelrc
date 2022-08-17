@@ -1,4 +1,3 @@
 {
-  "presets": ["env"],
-  "sourceMap": "inline"
+  "presets": ["next/babel", "@babel/preset-typescript"]
 }
