@@ -1,9 +1,14 @@
+## NODE
+node_modules
+**/*.spec.js
+test
+jest.config.js
+
+## OTHERS
 .git*
 tmp*
 log*
 public/assets*
-db/seeds/*.rb
-*Dockerfile
+Dockerfile
+docker-compose.yml
 
-# https://semaphoreci.com/docs/docker.html
-.semaphore-cache
