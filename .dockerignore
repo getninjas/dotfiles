@@ -9,6 +9,27 @@ jest.config.js
 tmp*
 log*
 public/assets*
+README.md
+
+## Devops
+# terraform stuff
+creds/*
+service-account.json
+*.tfstate
+*.tfstate.backup
+.terraform/*
+.terraform
+*tfplan*
 Dockerfile
 docker-compose.yml
+
+## google cloud
+*clouddns.json*
+*secrets.json*
+pubsub-secret.json
+
+## ansible
+ansible/venv
+
+terraform/*
 
