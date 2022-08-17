@@ -1,8 +1,6 @@
 version: '2'
 prepare:
   fetch:
-    - url: https://raw.githubusercontent.com/getninjas/eslint-config-getninjas/master/common.js
-      path: .eslint/common.js
     - url: https://raw.githubusercontent.com/getninjas/eslint-config-getninjas/master/index.js
       path: .eslint/eslint-config-getninjas.js
     - url: https://raw.githubusercontent.com/getninjas/dotfiles/master/.stylelintrc.json
