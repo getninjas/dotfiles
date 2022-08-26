@@ -1,9 +1,35 @@
+## NODE
+node_modules
+**/*.spec.js
+test
+jest.config.js
+
+## OTHERS
 .git*
 tmp*
 log*
 public/assets*
-db/seeds/*.rb
-*Dockerfile
+README.md
 
-# https://semaphoreci.com/docs/docker.html
-.semaphore-cache
+## Devops
+# terraform stuff
+creds/*
+service-account.json
+*.tfstate
+*.tfstate.backup
+.terraform/*
+.terraform
+*tfplan*
+Dockerfile
+docker-compose.yml
+
+## google cloud
+*clouddns.json*
+*secrets.json*
+pubsub-secret.json
+
+## ansible
+ansible/venv
+
+terraform/*
+

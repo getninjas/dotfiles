@@ -1,9 +1,12 @@
 # dotfiles
-All of our shared dotfiles
 
-## Editors
+Este repositorio contem os arquivos de configurações que são comuns em todas as aplicações.
 
-1. [Emacs](https://github.com/getninjas/dotfiles/wiki/Emacs)
-2. [Vim](https://github.com/getninjas/dotfiles/wiki/Vim)
-3. [Atom](https://github.com/getninjas/dotfiles/wiki/atom)
-4. [VSCode](https://github.com/getninjas/dotfiles/wiki/vscode)
+## Recomendações
+
+Recomendo instalar as extensões abaixo em seu editor de texto favorito.
+
+- editorconfig
+- prettier
+- stylelint
+- eslint
