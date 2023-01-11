@@ -4,6 +4,7 @@
   "rules": {
     "order/properties-alphabetical-order": null,
     "function-parentheses-space-inside": "never-single-line",
+    "declaration-property-value-disallowed-list": null,
     "order/properties-order": [
       {
         "groupName": "all",
@@ -381,7 +382,7 @@
       ["/color$/", "text-decoration"],
       {
         "expandShorthand": true,
-        "ignoreValues": ["0", "transparent", "inherit", "initial"]
+        "ignoreValues": ["0", "transparent", "inherit", "initial", "underline", "none"]
       }
     ],
     "selector-class-pattern": [
