@@ -5,6 +5,7 @@
     "order/properties-alphabetical-order": null,
     "function-parentheses-space-inside": "never-single-line",
     "declaration-property-value-disallowed-list": null,
+    "selector-max-compound-selectors": 4,
     "order/properties-order": [
       {
         "groupName": "all",
