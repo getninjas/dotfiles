@@ -387,7 +387,7 @@
       }
     ],
     "selector-class-pattern": [
-      "([a-zA-Z^]+[-]?\\w+)(?:--|__)(\\w+[-]?\\w+)?(--|__)\\w+",
+      "[a-zA-Z^]+[-]?\\w+(--|__)?\\w?(-)?\\w+(--|__)?",
       {
         "resolveNestedSelectors": true,
         "message": "Expected class selector to match BEM naming convention"
