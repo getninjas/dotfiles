@@ -1,11 +1,20 @@
 {
-  "extends": "stylelint-config-sass-guidelines",
-  "plugins": ["stylelint-declaration-strict-value"],
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-concentric-order"
+  ],
+  "plugins": [
+    "stylelint-declaration-strict-value",
+    "stylelint-scss"
+  ],
   "rules": {
-    "order/properties-alphabetical-order": null,
-    "function-parentheses-space-inside": "never-single-line",
     "declaration-property-value-disallowed-list": null,
+    "order/properties-alphabetical-order": null,
+    "function-parentheses-space-inside": null,
     "selector-max-compound-selectors": 4,
+    "value-no-vendor-prefix": null,
+    "property-no-vendor-prefix": null,
+    "selector-no-vendor-prefix": null,
     "order/properties-order": [
       {
         "groupName": "all",
@@ -368,7 +377,7 @@
       }
     ],
     "max-nesting-depth": [
-      3,
+      4,
       {
         "ignoreAtRules": ["each", "media", "supports", "include"]
       }
@@ -383,7 +392,14 @@
       ["/color$/", "text-decoration"],
       {
         "expandShorthand": true,
-        "ignoreValues": ["0", "transparent", "inherit", "initial", "underline", "none"]
+        "ignoreValues": [
+          "0",
+          "transparent",
+          "inherit",
+          "initial",
+          "underline",
+          "none"
+        ]
       }
     ],
     "selector-class-pattern": [
