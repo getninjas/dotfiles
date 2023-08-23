@@ -19,22 +19,36 @@
       {
         "groupName": "all",
         "noEmptyLineBetween": true,
-        "properties": ["all"]
+        "properties": [
+          "all"
+        ]
       },
       {
         "groupName": "box-sizing",
         "noEmptyLineBetween": true,
-        "properties": ["box-sizing"]
+        "properties": [
+          "box-sizing"
+        ]
       },
       {
         "groupName": "position",
         "noEmptyLineBetween": true,
-        "properties": ["display", "position", "top", "right", "bottom", "left"]
+        "properties": [
+          "display",
+          "position",
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
       },
       {
         "groupName": "float",
         "noEmptyLineBetween": true,
-        "properties": ["float", "clear"]
+        "properties": [
+          "float",
+          "clear"
+        ]
       },
       {
         "groupName": "flex",
@@ -76,17 +90,27 @@
       {
         "groupName": "align-content",
         "noEmptyLineBetween": true,
-        "properties": ["align-content", "align-items", "align-self"]
+        "properties": [
+          "align-content",
+          "align-items",
+          "align-self"
+        ]
       },
       {
         "groupName": "justify-content",
         "noEmptyLineBetween": true,
-        "properties": ["justify-content", "justify-items", "justify-self"]
+        "properties": [
+          "justify-content",
+          "justify-items",
+          "justify-self"
+        ]
       },
       {
         "groupName": "order",
         "noEmptyLineBetween": true,
-        "properties": ["order"]
+        "properties": [
+          "order"
+        ]
       },
       {
         "groupName": "columns",
@@ -130,7 +154,11 @@
       {
         "groupName": "visibility",
         "noEmptyLineBetween": true,
-        "properties": ["visibility", "opacity", "z-index"]
+        "properties": [
+          "visibility",
+          "opacity",
+          "z-index"
+        ]
       },
       {
         "groupName": "margin",
@@ -218,7 +246,9 @@
       {
         "groupName": "box-shadow",
         "noEmptyLineBetween": true,
-        "properties": ["box-shadow"]
+        "properties": [
+          "box-shadow"
+        ]
       },
       {
         "groupName": "background",
@@ -238,7 +268,9 @@
       {
         "groupName": "cursor",
         "noEmptyLineBetween": true,
-        "properties": ["cursor"]
+        "properties": [
+          "cursor"
+        ]
       },
       {
         "groupName": "padding",
@@ -254,17 +286,30 @@
       {
         "groupName": "width",
         "noEmptyLineBetween": true,
-        "properties": ["width", "min-width", "max-width"]
+        "properties": [
+          "width",
+          "min-width",
+          "max-width"
+        ]
       },
       {
         "groupName": "height",
         "noEmptyLineBetween": true,
-        "properties": ["height", "min-height", "max-height"]
+        "properties": [
+          "height",
+          "min-height",
+          "max-height"
+        ]
       },
       {
         "groupName": "overflow",
         "noEmptyLineBetween": true,
-        "properties": ["overflow", "overflow-x", "overflow-y", "resize"]
+        "properties": [
+          "overflow",
+          "overflow-x",
+          "overflow-y",
+          "resize"
+        ]
       },
       {
         "groupName": "list-style",
@@ -305,7 +350,9 @@
       {
         "groupName": "vertical-alignment",
         "noEmptyLineBetween": true,
-        "properties": ["vertical-align"]
+        "properties": [
+          "vertical-align"
+        ]
       },
       {
         "groupName": "text-alignment & decoration",
@@ -359,12 +406,18 @@
       {
         "groupName": "content",
         "noEmptyLineBetween": true,
-        "properties": ["content", "quotes"]
+        "properties": [
+          "content",
+          "quotes"
+        ]
       },
       {
         "groupName": "counters",
         "noEmptyLineBetween": true,
-        "properties": ["counter-reset", "counter-increment"]
+        "properties": [
+          "counter-reset",
+          "counter-increment"
+        ]
       },
       {
         "groupName": "breaks",
@@ -379,17 +432,29 @@
     "max-nesting-depth": [
       4,
       {
-        "ignoreAtRules": ["each", "media", "supports", "include"]
+        "ignoreAtRules": [
+          "each",
+          "media",
+          "supports",
+          "include"
+        ]
       }
     ],
     "selector-no-qualifying-type": [
       true,
       {
-        "ignore": ["class", "attribute", "id"]
+        "ignore": [
+          "class",
+          "attribute",
+          "id"
+        ]
       }
     ],
     "scale-unlimited/declaration-strict-value": [
-      ["/color$/", "text-decoration"],
+      [
+        "/color$/",
+        "text-decoration"
+      ],
       {
         "expandShorthand": true,
         "ignoreValues": [
@@ -407,6 +472,14 @@
       {
         "resolveNestedSelectors": true,
         "message": "Expected class selector to match BEM naming convention"
+      }
+    ],
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "aspect-ratio"
+        ]
       }
     ]
   }
